@@ -1,0 +1,415 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	position: relative;
+}
+
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration:none;
+}
+
+
+nav ul{
+	position: fixed;
+	top:0;
+	height: 10%;
+	width: 100%;
+	text-align:center;
+	font-size:0;
+	z-index: 100;
+	padding: 20px 0px;
+	transition: 0.3s;
+	/*border: 2px solid #ffF;*/
+	background-color: #591202;
+}
+
+.scrollnav{
+	background-color: #591202;
+	transition: 0.5s;
+	width: 100%;
+	height:10%;
+	padding: 0px 0px;
+	opacity: 1;
+}
+
+.logopic{
+	/*width: 17%;
+	height: 100%;*/
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+	/*border: 2px solid #ff0;*/
+}
+.c{
+	display: none;
+
+}
+nav ul .liall{
+	position: relative;
+	width: 17%;
+	height: 100%;
+	display:inline-block;
+	/*border: 2px solid #0f0;*/
+}
+nav ul li a{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-decoration:none;
+	width: 100%;
+	height: 100%;
+	font-size:24px;
+}
+nav ul li img{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 60%;
+	width: 100%;
+}
+nav ul li p{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 24px;
+	color: #fff;
+}
+
+
+.content1{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(img/bg1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.box1_all{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.box1_logo1{
+	position: absolute;
+	margin: auto;
+	width:500px;
+	top:40%;
+}
+.box1_name{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color:#FFF;
+	vertical-align: middle;
+	/*border: 1px solid #FF0;*/
+}
+.box1_name img{
+	position: absolute;
+	width: 600px;
+	/*height: 200px;*/
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-size: 6em;
+	/*border: 1px solid #f00;*/
+}
+.box1_cat{
+	position: absolute;
+	bottom: 15%;
+	left: 25%;
+	/*border: 1px solid #f00;*/
+}
+
+
+.box1_btn{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	bottom: 8%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*background-color: #f00;*/
+	/*border: 1px solid #00F;*/
+	border-radius: 50%;
+
+}
+.box1_btn_img{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+
+}
+.box1_btn:hover{
+	/*background-color: rgba(0,0,0,1);*/
+
+}
+
+.label{
+	position:fixed;
+	z-index: 100;
+}
+
+.smallrec{
+	width:50px;
+	height:100px;
+	right:0px;
+	top:150px;
+	margin:auto;
+	/*background-color:#aacc00;*/
+	background-color:#591202;
+	position:fixed;
+	transition: 0.5s;
+	text-align:center;
+	vertical-align:middle;
+	line-height:20px;
+	opacity: 0.7;
+	color: #FFF;
+}
+/*.tab{
+	width:50px;
+	height:200px;
+	right:0;
+	top:90px;
+	margin:auto;
+	position:fixed;
+	border:1px solid #f00;
+}*/
+.tri{
+	width:0px;
+	height:0px;
+	border-top:50px solid #591202; 
+	border-left:50px solid transparent;
+	border-bottom:50px solid transparent;
+	position:fixed;
+	right:0px;
+	top:250px;
+	transition: 0.5s;
+	opacity: 0.7;
+}
+.bigrec{
+	width:500px;
+	height:100%;
+	right:-500px;
+	top:100px;
+	margin:auto;
+	background-color:#591202;
+	position:fixed;
+	transition: 0.5s;
+
+	
+}
+.clickmove{
+	transition: 0.5s;
+	right:500px;
+	top:150px;
+	opacity: 0.9;
+}
+.clickmove1{
+	transition: 0.5s;
+	right:500px;
+	top:250px;
+	opacity: 0.9;
+	
+}
+.clickmove2{
+	transition: 0.5s;
+	right:0px;
+	top:100px;
+	
+}
+
+#box2{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: none;
+	/*display: inline-block;*/
+}
+
+.box2Left{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/*border: 3px solid #0f0;*/
+}
+.box2Right{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/*border: 3px solid #0f0;*/
+}
+
+
+.box2_content1{
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	top: 0;
+	bottom: 0;
+	left: 0%;
+	right: 0%;
+	margin: auto;
+	/*border: 3px solid #F00;*/
+	background-color: rgba(70,10,0,0.8);
+	border-radius: 50%;
+}
+
+.l_content{
+	position: absolute;
+	width: 250px;
+	height: 90px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*border: 5px solid #0f0;*/
+}
+
+.box2_content2{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	/*border: 3px solid #Ff0;*/
+	background-color: rgba(190,149,101,0.6);
+	border-radius: 50%;
+}
+.r_content{
+	position: absolute;
+	width: 250px;
+	height: 90px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*border: 5px solid #0f0;	*/
+}
+
+.box2_texta>p>a,.box2_textb>p>a{
+	color:#fff;
+}
+.box2_textb:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+.box2_texta>p{
+	color:#fff;
+}
+.box2_textb>p{
+	color:#fff;
+	font-size: 18px;
+	padding: 10px;
+	border: 1px solid #fff;
+}
+.box2_texta{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	font-size: 25px;
+	/*color: #fff;*/
+	width: 250px;
+	/*border: 3px solid #00F;*/
+}
+
+.box2_textb{ 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	width: 120px;
+	/*border: 3px solid #FF0;*/
+}
+
+.contentbg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(img/bg1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: -3;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*border: 10px solid #0F0;*/
+}
+.contentbgblur{
+	transition: 1s;
+	-webkit-filter: blur(10px);
+	   -moz-filter: blur(10px);
+	     -ms-filter:blur(10px);
+	         filter:blur(10px);
+}
+
+.contentcircle{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+	background: url(img/background_circles.svg);
+	background-size: cover;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*border: 10px solid #00f;*/
+}
+.contentcircleblur{
+	animation: a2 5s 0s alternate infinite;
+	-webkit-filter: blur(5px);
+	   -moz-filter: blur(5px);
+	     -ms-filter:blur(5px);
+	         filter:blur(5px);
+}
+
+@keyframes a2{
+	  0%{ opacity: 0;top:0}
+	 15%{ opacity: 0;top:50}
+    100%{ opacity: 1;top:0}
+}
